@@ -1,0 +1,7 @@
+﻿私の会社PC環境:
+- OS: Windows 11
+- Python バージョン: 3.13.2-amd64
+- pythonw.exeパス：C:\python64\pythonw.exe
+- メインエディタ: VSCode
+- よく使うアプリ: Excel2021(32bit) Access2021(32bit),SketchUp2025
+- プロジェクトフォルダ: D:\My_Projects\
