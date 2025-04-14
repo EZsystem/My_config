@@ -1,10 +1,13 @@
 ﻿PC環境:共通
 - OS: Windows 11
-- 常駐アプリ: clibor,Claunch,x-mouse Button Control,keyboard Butler,ELECOM Mouse Assistant6
+- 常駐アプリ: clibor,Claunch,x-mouse Button Control,keyboard Butler,ELECOM Mouse Assistant6,Rainmeter
 - Python バージョン: 3.13.2-amd64
 - メインエディタ: VSCode
 - よく使うアプリ: Excel2021(32bit) Access2021(32bit),SketchUp2025
 ﻿PC環境:会社
+- 常駐アプリ: atok2017,John'sBackground Switcher
+- 使用マウス: ELECOM製m-ht1DR
+- 使用キーボード: HHB Professional HYBRID
 - プロジェクトフォルダ: D:\My_Projects\
 ﻿PC環境:自宅
 - pythonw.exeパス：C:\python64\pythonw.exe
