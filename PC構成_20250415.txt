@@ -5,11 +5,15 @@
 - メインエディタ: VSCode
 - よく使うアプリ: Excel2021(32bit) Access2021(32bit),SketchUp2025
 ﻿PC環境:会社
-- 常駐アプリ: atok2017,John'sBackground Switcher
+- PC本体:
 - 使用マウス: ELECOM製m-ht1DR
 - 使用キーボード: HHB Professional HYBRID
+- 常駐アプリ: atok2017,John'sBackground Switcher
 - プロジェクトフォルダ: D:\My_Projects\
 ﻿PC環境:自宅
+- PC本体: LENOVO製21MV
+- 使用マウス: ELECOM製m-ht1ur
 - pythonw.exeパス：C:\python64\pythonw.exe
 - プロジェクトフォルダ: c:\My_Projects\
-- 使用マウス: ELECOM製m-ht1ur
+
+
