@@ -6,6 +6,8 @@
 - よく使うアプリ: Excel2021(32bit) Access2021(32bit),SketchUp2025
 ﻿PC環境:会社
 - PC本体:
+- 拡張モニター1: HP P27G5
+- 拡張モニター2: SHARP LC-22K30
 - 使用マウス: ELECOM製m-ht1DR
 - 使用キーボード: HHB Professional HYBRID
 - 常駐アプリ: atok2017,John'sBackground Switcher
