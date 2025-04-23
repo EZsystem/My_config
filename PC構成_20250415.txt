@@ -5,7 +5,7 @@
 - メインエディタ: VSCode
 - よく使うアプリ: Excel2021(32bit) Access2021(32bit),SketchUp2025
 ﻿PC環境:会社
-- PC本体:
+- PC本体:	HP ZBook Studio 16 inch G11 Mobile Workstation PC
 - 拡張モニター1: HP P27G5
 - 拡張モニター2: SHARP LC-22K30
 - 使用マウス: ELECOM製m-ht1DR
