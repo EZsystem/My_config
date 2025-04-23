@@ -6,6 +6,7 @@ Option Explicit
 ' モジュール名: mod_tabCopy2Ball
 ' 目的　　　: clsTableTransferSetting を使って Icube_累計 から関係テーブルへ一括転写
 '　　　　　   転写先に重複データがあれば事前に削除してから転写する
+'　　　　　   各処理をイミディエイトに表示する
 ' 使用クラス: clsTableTransferSetting, clsTableTransferExecutor
 '-----------------------------------------------------
 
@@ -50,7 +51,7 @@ Public Sub mod_tabCopy2Ball()
     setting.KeyField = "枝番工事コード"
     transferList.Add setting
 
-    ' 実行クラスを使って一括転写（重複削除を含む版を使用）
+    ' 実行処理
     Dim settingItem As clsTableTransferSetting
     Dim db As DAO.Database
     Dim rsSource As DAO.Recordset
@@ -58,6 +59,9 @@ Public Sub mod_tabCopy2Ball()
     Set db = CurrentDb
 
     For Each settingItem In transferList
+        Debug.Print "▼ 転写処理中: [" & settingItem.SourceTable & "] → [" & settingItem.TargetTable & "]"
+
+        ' 削除対象の重複データを削除
         Set rsSource = db.OpenRecordset("SELECT DISTINCT [" & settingItem.KeyField & "] FROM [" & settingItem.SourceTable & "]", dbOpenSnapshot)
         Do While Not rsSource.EOF
             sqlDelete = "DELETE FROM [" & settingItem.TargetTable & "] WHERE [" & settingItem.KeyField & "] = '" & Replace(rsSource(settingItem.KeyField), "'", "''") & "'"
@@ -67,8 +71,12 @@ Public Sub mod_tabCopy2Ball()
         rsSource.Close
         Set rsSource = Nothing
 
+        ' データ転写
         TransferTable settingItem.SourceTable, settingItem.TargetTable, settingItem.KeyField
     Next
+
+    Debug.Print "■■ 転写処理がすべて完了したにゃ！ [" & Now & "] ■■"
+    MsgBox "転写処理が完了したにゃ！", vbInformation
 
     Set db = Nothing
 End Sub
