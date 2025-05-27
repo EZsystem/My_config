@@ -1,0 +1,22 @@
+﻿PC環境:共通
+- OS: Windows 11
+- 常駐アプリ: clibor,Claunch,x-mouse Button Control,keyboard Butler,shareX,Rainmeter
+- Python バージョン: 3.13.2-amd64
+- メインエディタ: VSCode
+- よく使うアプリ: Excel2021(32bit) Access2021(32bit),SketchUp2025
+﻿PC環境:会社
+- PC本体: HP ZBook Studio 16 inch G11 Mobile Workstation PC
+- 拡張モニター1: HP P27 G5 27インチFHDモニター(ｽﾀﾝﾀﾞｰﾄﾞﾓﾃﾞﾙ）
+- 拡張モニター2: SHARP LC-22K30
+- 使用マウス: ELECOM製m-ht1DR
+- 使用キーボード: HHB Professional HYBRID
+- usbステーション：Anker 332 USB-C ハブ (5-in-1) ※2台
+- 常駐アプリ: atok2017,John'sBackground Switcher
+- プロジェクトフォルダ: D:\My_Projects\
+﻿PC環境:自宅
+- PC本体: LENOVO製21MV
+- 使用マウス: ELECOM製m-ht1ur
+- pythonw.exeパス：C:\python64\pythonw.exe
+- プロジェクトフォルダ: c:\My_Projects\
+
+記入：2025/05/27
