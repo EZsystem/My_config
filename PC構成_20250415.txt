@@ -14,8 +14,12 @@
 - プロジェクトフォルダ: D:\My_Projects\
 ﻿PC環境:自宅
 - PC本体: LENOVO製21MV
+  シリアル番号：PW0GK96Q
+  マシンタイプ：21MV0063JP
+  ポート：1x 1 x novo hole (One-Key Rescue hole in side); HDMI 2.1; 2 USB A 3.1 Gen1(One supports AOU); 1 x RJ45; 4-in-1 SD-Card Reader (SD
 - 使用マウス: ELECOM製m-ht1ur
 - pythonw.exeパス：C:\python64\pythonw.exe
 - プロジェクトフォルダ: c:\My_Projects\
+
 
 
