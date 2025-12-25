@@ -5,17 +5,20 @@ PC環境:共通
 - メインエディタ: VSCode
 - よく使うアプリ: Excel2021(32bit), Access2021(32bit), SketchUp2026
 
-PC環境:会社
+PC環境:会社 (高セキュリティ/監視下)
 - PC本体: HP ZBook Studio 16 inch G11 Mobile Workstation PC
   - CPU: Intel Core Ultra 7 165H (16コア/22スレッド)
   - メモリ: 64.0 GB
   - GPU: NVIDIA RTX 3000 Ada Generation Laptop GPU (VRAM 8GB)
   - NPU: Intel AI Boost
-- 拡張モニター1: HP P27 G5 27インチFHDモニター(スタンダードモデル）
+- 監視・セキュリティ管理 (★重要):
+  - 資産管理/ログ監視: SKYSEA Client View (SS1) ※USB・アプリ・操作ログ監視
+  - セキュリティ: Trend Micro Apex One (ウイルスバスター法人版)
+  - クラウド管理: Box
+- 拡張モニター1: HP P27 G5 27インチFHDモニター
 - 拡張モニター2: SHARP LC-22K30
-- ドッキングステーション: Anker 778 Thunderbolt (12-in-1, Thunderbolt 4)
-- 使用マウス: ELECOM製 m-ht1DR
-- 使用キーボード: HHKB Studio
+- ドッキングステーション: Anker 778 Thunderbolt
+- 使用マウス: ELECOM製 m-ht1DR / キーボード: HHKB Studio
 - プロジェクトフォルダ: D:\My_Projects\
 
 PC環境:自宅
