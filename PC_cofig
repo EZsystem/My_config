@@ -1,28 +1,36 @@
 PC環境:共通
 - OS: Windows 11
-- 常駐アプリ: Google日本語入力,clibor,Claunch,x-mouse Button Control,keyboard Butler,shareX,Rainmeter
+- 常駐アプリ: Google日本語入力, clibor, CLaunch, X-Mouse Button Control, Keyboard Butler, ShareX, Rainmeter
 - Python バージョン: 3.13.2-amd64
 - メインエディタ: VSCode
-- よく使うアプリ: Excel2021(32bit) Access2021(32bit),SketchUp2026
-﻿PC環境:会社
-- PC本体: HP ZBook Studio 16 inch G11 Mobile Workstation PC
-- 拡張モニター1: HP P27 G5 27インチFHDモニター(ｽﾀﾝﾀﾞｰﾄﾞﾓﾃﾞﾙ）
-- 拡張モニター2: SHARP LC-22K30
-- ドッキングステーション :Anker 778 Thunderbolt (12-in-1, Thunderbolt 4)
-- 使用マウス: ELECOM製m-ht1DR
-- 使用キーボード:  HHKB Studio
-- プロジェクトフォルダ: D:\My_Projects\
-﻿PC環境:自宅
-- PC本体: LENOVO製21MV
-- 使用マウス: ELECOM製m-ht1ur
-- 使用キーボード: HHKB Studio
-- pythonw.exeパス：C:\python64\pythonw.exe
-- プロジェクトフォルダ: c:\My_Projects\
-iPad
-- iPad Pro11in.(M5)-256GB(au)
-予備
-- usbステーション：Anker 332 USB-C ハブ (5-in-1) ※2台
-- 給電ケーブル： UGREEN　USB Type C ケーブル USB C to USB C 【PD 100W/5A 超急速充電】 タイプC ケーブルE-Markerチップ搭載 480Mbpsデータ転送
-- 給電アダプター : UGREEN 充電器 Type-C 65W 3-in-1急速充電器 単ポート最大65W出力 USB-C*2＆USB-A*1 22.5W 3ポート 充電保護システム PD3.0 PPS規格対応 折りたたみ式
+- よく使うアプリ: Excel2021(32bit), Access2021(32bit), SketchUp2026
 
-記載：2025年12月25日
+PC環境:会社
+- PC本体: HP ZBook Studio 16 inch G11 Mobile Workstation PC
+  - CPU: Intel Core Ultra 7 165H (16コア/22スレッド)
+  - メモリ: 64.0 GB
+  - GPU: NVIDIA RTX 3000 Ada Generation Laptop GPU (VRAM 8GB)
+  - NPU: Intel AI Boost
+- 拡張モニター1: HP P27 G5 27インチFHDモニター(スタンダードモデル）
+- 拡張モニター2: SHARP LC-22K30
+- ドッキングステーション: Anker 778 Thunderbolt (12-in-1, Thunderbolt 4)
+- 使用マウス: ELECOM製 m-ht1DR
+- 使用キーボード: HHKB Studio
+- プロジェクトフォルダ: D:\My_Projects\
+
+PC環境:自宅
+- PC本体: LENOVO製 21MV (ThinkPad E16 Gen 2相当と推測)
+- 使用マウス: ELECOM製 m-ht1ur
+- 使用キーボード: HHKB Studio
+- pythonw.exeパス: C:\python64\pythonw.exe
+- プロジェクトフォルダ: c:\My_Projects\
+
+iPad
+- 本体: iPad Pro 11in. (M4? ※M5は未発売のため推測) - 256GB (au)
+
+予備機材
+- USBハブ: Anker 332 USB-C ハブ (5-in-1) ※2台
+- 給電ケーブル: UGREEN USB Type C ケーブル (PD 100W/5A, E-Marker, 480Mbps)
+- 給電アダプター: UGREEN 充電器 Type-C 65W 3-in-1 (USB-C*2 & USB-A*1, PD3.0 PPS対応)
+
+記載：2025-12-25
