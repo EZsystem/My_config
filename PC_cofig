@@ -23,6 +23,12 @@ PC環境:会社 (高セキュリティ/監視下)
 
 PC環境:自宅
 - PC本体: LENOVO製 21MV (ThinkPad E16 Gen 2相当と推測)
+  - デバイス名: EzHousePc01
+  - プロセッサ: AMD Ryzen 7 7735HS with Radeon Graphics (3.20 GHz)
+    - 8コア / 16スレッド
+  - メモリ (RAM): 32.0 GB (実使用可能 27.3 GB)
+    - ★重要: メモリの一部をグラフィック(GPU)と共有しています。
+  - GPU: AMD Radeon 680M (CPU内蔵グラフィックス)
 - 使用マウス: ELECOM製 m-ht1ur
 - 使用キーボード: HHKB Studio
 - pythonw.exeパス: C:\python64\pythonw.exe
