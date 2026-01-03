@@ -1,11 +1,12 @@
-PC環境:共通
+■PC環境：共通・ソフトウェア
 - OS: Windows 11
 - 常駐アプリ: Google日本語入力, clibor, CLaunch, X-Mouse Button Control, Keyboard Butler, ShareX, Rainmeter
 - Python バージョン: 3.13.2-amd64
 - メインエディタ: VSCode
 - よく使うアプリ: Excel2021(32bit), Access2021(32bit), SketchUp2026
+- プロジェクトフォルダ: D:\My_Projects\
 
-PC環境:会社 (高セキュリティ/監視下)
+■PC環境：会社 (高セキュリティ/監視下)
 - PC本体: HP ZBook Studio 16 inch G11 Mobile Workstation PC
   - CPU: Intel Core Ultra 7 165H (16コア/22スレッド)
   - メモリ: 64.0 GB
@@ -19,9 +20,9 @@ PC環境:会社 (高セキュリティ/監視下)
 - 拡張モニター2: SHARP LC-22K30
 - ドッキングステーション: Anker 778 Thunderbolt
 - 使用マウス: ELECOM製 m-ht1DR / キーボード: HHKB Studio
-- プロジェクトフォルダ: D:\My_Projects\
 
-PC環境:自宅
+
+■PC環境：自宅
 - PC本体: LENOVO製 21MV (ThinkPad E16 Gen 2相当と推測)
   - デバイス名: EzHousePc01
   - プロセッサ: AMD Ryzen 7 7735HS with Radeon Graphics (3.20 GHz)
@@ -31,15 +32,39 @@ PC環境:自宅
   - GPU: AMD Radeon 680M (CPU内蔵グラフィックス)
 - 使用マウス: ELECOM製 m-ht1ur
 - 使用キーボード: HHKB Studio
-- pythonw.exeパス: C:\python64\pythonw.exe
-- プロジェクトフォルダ: c:\My_Projects\
 
-iPad
+
+■iPad：会社
+- 機種名: iPad Pro 11インチ (第1世代)
+- モデル番号: MU102J/A
+- 発売年: 2018年モデル
+- チップ: A12X Bionic (メモリ 4GB)
+- ストレージ: 256GB
+- 通信仕様: Wi-Fi + Cellularモデル
+- OS: iPadOS 18.6.2
+
+■スマートフォン：個人
+- 機種名: Google Pixel 6a
+- SoC (プロセッサ): Google Tensor (第1世代)
+- メモリ (RAM): 6GB
+- ストレージ容量: 128GB
+- 通信キャリア: Rakuten (楽天モバイル)
+
+■スマートフォン：会社
+- 機種名: arrows Be3 F-02L
+- メーカー: 富士通コネクテッドテクノロジーズ
+- SoC (プロセッサ): Snapdragon 450
+- メモリ (RAM): 3GB
+- ストレージ: 32GB
+- 通信キャリア: NTTドコモ (NTT DOCOMO)
+
+■iPad：いずれ交換予定
 - 本体: iPad Pro 11in. (M4? ※M5は未発売のため推測) - 256GB (au)
 
-予備機材
+■予備機材
 - USBハブ: Anker 332 USB-C ハブ (5-in-1) ※2台
 - 給電ケーブル: UGREEN USB Type C ケーブル (PD 100W/5A, E-Marker, 480Mbps)
 - 給電アダプター: UGREEN 充電器 Type-C 65W 3-in-1 (USB-C*2 & USB-A*1, PD3.0 PPS対応)
 
+------------------
 記載：2025-12-25
