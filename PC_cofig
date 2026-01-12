@@ -20,7 +20,8 @@
 - 拡張モニター2: SHARP LC-22K30
 - ドッキングステーション: Anker 778 Thunderbolt
 - 使用マウス: ELECOM製 m-ht1DR / キーボード: HHKB Studio
-
+- ローカルLMM:　LM Studio: v0.3.37
+  - Local LLM: Qwen2-VL-7B-Instruct-GGUF (bartowski)
 
 ■PC環境：自宅
 - PC本体: LENOVO製 21MV (ThinkPad E16 Gen 2相当と推測)
@@ -32,7 +33,7 @@
   - GPU: AMD Radeon 680M (CPU内蔵グラフィックス)
 - 使用マウス: ELECOM製 m-ht1ur
 - 使用キーボード: HHKB Studio
-
+- ローカルLMM:　LM Studio: v0.3.37
 
 ■iPad：会社
 - 機種名: iPad Pro 11インチ (第1世代)
