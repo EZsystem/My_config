@@ -1,7 +1,6 @@
 ■PC環境：共通・ソフトウェア
 - OS: Windows 11
-- 常駐アプリ: Google日本語入力, clibor, CLaunch, X-Mouse Button Control, Keyboard Butler, ShareX, Rainmeter
-- Python バージョン: 3.13.2-amd64
+- 常駐アプリ: Google日本語入力, clibor, CLaunch, X-Mouse Button Control, Keyboard Butler, ShareX
 - メインエディタ: VSCode
 - よく使うアプリ: Excel2021(32bit), Access2021(32bit), SketchUp2026
 
@@ -37,6 +36,18 @@
 　- tokyotech-llm-Llama-3.1-Swallow-8B-Instruct-v0.34.69
 　- llava-1.6-mistral-7b4.99
 
+■PCCode環境：自宅
+カテゴリ,項目,値 / 状態
+- Python
+　- 64bit,本体パス / Ver,C:\python64\python.exe (v3.13.2)
+- Python
+　- 32bit,本体パス / Ver,C:\Python32\python.exe (v3.12.8)
+- Office
+　- Bit,ProPlus 2021 Retail (32bit / x86)
+- VS Community 2026 (Dev18)
+- 基本パス
+　- コード,D:\My_code / D:\MyLauncher
+　- アプリ,D:\apps
 
 ■iPad：会社
 - 機種名: iPad Pro 11インチ (第1世代)
