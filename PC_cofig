@@ -6,22 +6,26 @@
 
 ■PC環境：会社 (高セキュリティ/監視下)
 - PC本体: HP ZBook Studio 16 inch G11 Mobile Workstation PC
-  - デバイス名: M0020244
-  - CPU: Intel Core Ultra 7 165H (16コア/22スレッド)
-  - メモリ: 64.0 GB
-  - GPU: NVIDIA RTX 3000 Ada Generation Laptop GPU (VRAM 8GB)
-  - NPU: Intel AI Boost
-- 監視・セキュリティ管理 (★重要):
-  - 資産管理/ログ監視: SKYSEA Client View (SS1) ※USB・アプリ・操作ログ監視
-  - セキュリティ: Trend Micro Apex One (ウイルスバスター法人版)
-  - クラウド管理: Box
-- 拡張モニター1: HP P27 G5 27インチFHDモニター
-- 拡張モニター2: SHARP LC-22K30
+- デバイス名: M0020244
+- CPU: Intel Core Ultra 7 165H (16コア/22スレッド)
+- メモリ: 64.0 GB
+- GPU: NVIDIA RTX 3000 Ada Generation Laptop GPU (VRAM 8GB)
+- NPU: Intel AI Boost
+監視・セキュリティ管理 (★重要):
+- ネットワーク/ゼロトラスト: Zscaler Client Connector (ZIA/ZPA/ZDX) ※VPN代替・Web検閲
+- 資産管理/ログ監視: SKYSEA Client View (SS1) ※USB・アプリ・操作ログ監視
+- セキュリティ: Trend Micro Apex One (ウイルスバスター法人版)
+- クラウド管理: Box
+拡張モニター:
+- モニター1: HP P27 G5 27インチFHDモニター
+- モニター2: SHARP LC-22K30
+周辺機器:
 - ドッキングステーション: Anker 778 Thunderbolt
-- 使用マウス: ELECOM製 m-ht1DR / キーボード: HHKB Studio
-- ローカルLMM:　LM Studio: v0.3.37
-　- DeepSeek-R1-14B (bartowski)
-  - Local LLM: Qwen2-VL-7B-Instruct-GGUF (bartowski)
+- マウス: ELECOM製 M-HT1DR (トラックボール)
+- キーボード: HHKB Studio
+- ローカルLLM: LM Studio v0.3.37
+- DeepSeek-R1-14B (bartowski)
+- Qwen2-VL-7B-Instruct-GGUF (bartowski
 
 ■PC環境：自宅
 - PC本体: LENOVO製 21MV (ThinkPad E16 Gen 2相当と推測)
