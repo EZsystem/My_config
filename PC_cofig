@@ -1,7 +1,7 @@
 ■PC環境：共通・ソフトウェア
 - OS: Windows 11
 - 常駐アプリ: Google日本語入力, clibor, CLaunch, X-Mouse Button Control, Keyboard Butler, ShareX
-- メインエディタ: VSCode
+- メインエディタ: Google Antigravity
 - よく使うアプリ: Excel2021(32bit), Access2021(32bit), SketchUp2026
 
 ■PC環境：会社 (高セキュリティ/監視下)
@@ -49,7 +49,7 @@
 　- 32bit,本体パス / Ver,C:\Python32\python.exe (v3.12.9)
 - Office
 　- Bit,ProPlus 2021 Retail (32bit / x86)
-- VS Community 2026 (Dev18)
+- Google Antigravity
 - 基本パス
 　- コード,D:\My_code / D:\MyLauncher
 　- アプリ,D:\apps
@@ -62,7 +62,7 @@
 　- 32bit,本体パス / Ver,C:\Python32\python.exe (v3.12.8)
 - Office
 　- Bit,ProPlus 2021 Retail (32bit / x86)
-- VS Community 2026 (Dev18)
+- Google Antigravity
 - 基本パス
 　- コード,D:\My_code / D:\MyLauncher
 　- アプリ,D:\apps
