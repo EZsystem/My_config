@@ -23,9 +23,8 @@
 - ドッキングステーション: Anker 778 Thunderbolt
 - マウス: ELECOM製 M-HT1DR (トラックボール)
 - キーボード: HHKB Studio
-- ローカルLLM: LM Studio v0.3.37
-- DeepSeek-R1-14B (bartowski)
-- Qwen2-VL-7B-Instruct-GGUF (bartowski
+- ローカルLLM: LM Studio v0.4.37
+  - gemma-4-E4B-it-GGUF (unsloth)
 
 ■PC環境：自宅
 - PC本体: LENOVO製 21MV (ThinkPad E16 Gen 2相当と推測)
