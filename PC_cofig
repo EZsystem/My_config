@@ -23,7 +23,7 @@
 - ドッキングステーション: Anker 778 Thunderbolt
 - マウス: ELECOM製 M-HT1DR (トラックボール)
 - キーボード: HHKB Studio
-- ローカルLLM: LM Studio v0.4.37
+- ローカルLLM: LM Studio v0.4.9
   - gemma-4-E4B-it-GGUF (unsloth)
 
 ■PC環境：自宅
@@ -36,9 +36,8 @@
   - GPU: AMD Radeon 680M (CPU内蔵グラフィックス)
 - 使用マウス: ELECOM製 m-ht1ur
 - 使用キーボード: HHKB Studio
-- ローカルLMM:　LM Studio: v0.3.37
-　- tokyotech-llm-Llama-3.1-Swallow-8B-Instruct-v0.34.69
-　- llava-1.6-mistral-7b4.99
+- ローカルLLM: LM Studio v0.4.9
+  - gemma-4-E4B-it-GGUF (unsloth)
 
 ■PCCode環境：会社
 カテゴリ,項目,値 / 状態
