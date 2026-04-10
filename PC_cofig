@@ -16,9 +16,9 @@
 - 資産管理/ログ監視: SKYSEA Client View (SS1) ※USB・アプリ・操作ログ監視
 - セキュリティ: Trend Micro Apex One (ウイルスバスター法人版)
 - クラウド管理: Box
-拡張モニター:
+物理モニター:
 - モニター1: HP P27 G5 27インチFHDモニター
-- モニター2: SHARP LC-22K30
+- モニター2: LC-22K30 23インチモニター
 周辺機器:
 - ドッキングステーション: Anker 778 Thunderbolt
 - マウス: ELECOM製 M-HT1DR (トラックボール)
@@ -34,6 +34,10 @@
   - メモリ (RAM): 32.0 GB (実使用可能 27.3 GB)
     - ★重要: メモリの一部をグラフィック(GPU)と共有しています。
   - GPU: AMD Radeon 680M (CPU内蔵グラフィックス)
+物理モニター:
+- モニター1: SHARPLC-22K30
+- モニター2: 
+周辺機器:
 - 使用マウス: ELECOM製 m-ht1ur
 - 使用キーボード: HHKB Studio
 - ローカルLLM: LM Studio v0.4.9
