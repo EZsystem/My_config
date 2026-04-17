@@ -1,135 +1,148 @@
-■PC環境：共通・ソフトウェア
-- OS: Windows 11
-- 常駐アプリ: Google日本語入力, clibor, CLaunch, X-Mouse Button Control, Keyboard Butler, ShareX
-- メインエディタ: Google Antigravity
-- よく使うアプリ: Excel2021(32bit), Access2021(32bit), SketchUp2026
+# PC・デバイス・開発環境 構成管理資料
+**最終更新日:** 2026年4月18日
 
-■PC環境：会社 (高セキュリティ/監視下)
-- PC本体: HP ZBook Studio 16 inch G11 Mobile Workstation PC
-- デバイス名: M0020244
-- CPU: Intel Core Ultra 7 165H (16コア/22スレッド)
-- メモリ: 64.0 GB
-- GPU: NVIDIA RTX 3000 Ada Generation Laptop GPU (VRAM 8GB)
-- NPU: Intel AI Boost
-監視・セキュリティ管理 (★重要):
-- ネットワーク/ゼロトラスト: Zscaler Client Connector (ZIA/ZPA/ZDX) ※VPN代替・Web検閲
-- 資産管理/ログ監視: SKYSEA Client View (SS1) ※USB・アプリ・操作ログ監視
-- セキュリティ: Trend Micro Apex One (ウイルスバスター法人版)
-- クラウド管理: Box
-物理モニター:
-- モニター1: HP P27 G5 27インチFHDモニター
-- モニター2: LC-22K30 23インチモニター
-周辺機器:
-- ドッキングステーション: Anker 778 Thunderbolt
-- マウス: ELECOM製 M-HT1DR (トラックボール)
-- キーボード: HHKB Studio
-- ローカルLLM: LM Studio v0.4.9
-  - gemma-4-E4B-it-GGUF (unsloth)
+---
 
-■PC環境：自宅
-- PC本体: LENOVO製 21MV (ThinkPad E16 Gen 2相当と推測)
-  - デバイス名: EzHousePc01
-  - プロセッサ: AMD Ryzen 7 7735HS with Radeon Graphics (3.20 GHz)
-    - 8コア / 16スレッド
-  - メモリ (RAM): 32.0 GB (実使用可能 27.3 GB)
-    - ★重要: メモリの一部をグラフィック(GPU)と共有しています。
-  - GPU: AMD Radeon 680M (CPU内蔵グラフィックス)
-物理モニター:
-- モニター1: SHARPLC-22K30
-- モニター2: 
-周辺機器:
-- 使用マウス: ELECOM製 m-ht1ur
-- 使用キーボード: HHKB Studio
-. セキュリティ環境（ESET HOME セキュリティ エッセンシャル）
-基本特性: * 超軽量フットプリント: 開発中のビルドやローカルAI（LM Studio/Antigravity）の推論実行を妨げない低リソース消費。
+## 1. PC環境：共通・ソフトウェア
+すべてのPCで共通して使用・導入されているベース環境です。
 
-開発・運用向け現在機能:
+### 基本OS
+* **OS:** Windows 11
 
-検知エンジン除外設定: Python仮想環境、GitHubローカルリポジトリ、VBAプロジェクトフォルダをスキャン対象外に指定し、ファイルI/Oの遅延を防止。
+### ソフトウェア
+* **常駐アプリ:** * Google日本語入力
+    * clibor
+    * CLaunch
+    * X-Mouse Button Control
+    * Keyboard Butler
+    * ShareX
+* **メインエディタ:** * Google Antigravity
+* **よく使うアプリ:** * Excel 2021 (32bit)
+    * Access 2021 (32bit)
+    * SketchUp 2026
 
-HIPS (ホスト侵入防止システム): 未知の自作スクリプト実行時やシステムレジストリへのアクセスを監視・制御。
+---
 
-パーソナルファイアウォール: localhost (127.0.0.1) 通信やAPI連携（GAS/Python間）のパケットフィルタリング管理。
+## 2. PC環境：会社 (高セキュリティ/監視下)
+業務用ワークステーションの詳細スペックと管理体制です。
 
-スクリプトスキャン: VBAマクロやWindows PowerShell等の不正な動きをリアルタイムで解析。
+### ハードウェアスペック
+* **PC本体:** HP ZBook Studio 16 inch G11 Mobile Workstation PC
+* **デバイス名:** M0020244
+* **CPU:** Intel Core Ultra 7 165H (16コア / 22スレッド)
+* **メモリ:** 64.0 GB
+* **GPU:** NVIDIA RTX 3000 Ada Generation Laptop GPU (VRAM 8GB)
+* **NPU:** Intel AI Boost
 
-銀行決済保護: 開発者コンソール（GitHub, AWS, Google Cloud等）へのアクセス時、ブラウザ層でのキー入力や通信を保護。
+### 監視・セキュリティ管理 (★重要)
+* **ネットワーク / ゼロトラスト:** Zscaler Client Connector (ZIA/ZPA/ZDX) ※VPN代替・Web検閲
+* **資産管理 / ログ監視:** SKYSEA Client View (SS1) ※USB・アプリ・操作ログ監視
+* **ウイルス対策:** Trend Micro Apex One (ウイルスバスター法人版)
+* **クラウド管理:** Box
 
-ネットワーク検査: 接続中の周辺機器（Redmi Watch等）やホームネットワーク内の脆弱性スキャン。
+### 物理モニター・周辺機器
+* **モニター1:** HP P27 G5 27インチFHDモニター
+* **モニター2:** LC-22K30 23インチモニター
+* **ドッキングステーション:** Anker 778 Thunderbolt
+* **マウス:** ELECOM製 M-HT1DR (トラックボール)
+* **キーボード:** HHKB Studio
 
-- ローカルLLM: LM Studio v0.4.9
-  - gemma-4-E4B-it-GGUF (unsloth)
+### ローカルLLM環境
+* **ツール:** LM Studio v0.4.9
+* **モデル:** gemma-4-E4B-it-GGUF (unsloth)
 
-■PCCode環境：会社
-カテゴリ,項目,値 / 状態
-- Python
-　- 64bit,本体パス / Ver,C:\python64\python.exe (v3.13.2)
-- Python
-　- 32bit,本体パス / Ver,C:\Python32\python.exe (v3.12.9)
-- Office
-　- Bit,ProPlus 2021 Retail (32bit / x86)
-- Google Antigravity
-- 基本パス
-　- コード,D:\My_code / D:\MyLauncher
-　- アプリ,D:\apps
+---
 
-■PCCode環境：自宅
-カテゴリ,項目,値 / 状態
-- Python
-　- 64bit,本体パス / Ver,C:\python64\python.exe (v3.13.2)
-- Python
-　- 32bit,本体パス / Ver,C:\Python32\python.exe (v3.12.8)
-- Office
-　- Bit,ProPlus 2021 Retail (32bit / x86)
-- Google Antigravity
-- 基本パス
-　- コード,D:\My_code / D:\MyLauncher
-　- アプリ,D:\apps
+## 3. PC環境：自宅
+開発および個人利用向けの環境設定です。
 
-■スマートフォン：個人
-- 機種名: Google Pixel 6a
-- SoC (プロセッサ): Google Tensor (第1世代)
-- メモリ (RAM): 6GB
-- ストレージ容量: 128GB
-- 通信キャリア: Rakuten (楽天モバイル)
+### ハードウェアスペック
+* **PC本体:** LENOVO製 21MV (ThinkPad E16 Gen 2相当と推測)
+* **デバイス名:** EzHousePc01
+* **プロセッサ:** AMD Ryzen 7 7735HS with Radeon Graphics (3.20 GHz)
+    * 8コア / 16スレッド
+* **メモリ (RAM):** 32.0 GB (実使用可能 27.3 GB)
+    * **★重要:** メモリの一部をグラフィック(GPU)と共有
+* **GPU:** AMD Radeon 680M (CPU内蔵グラフィックス)
 
-■スマートフォン：会社
-- 機種名: arrows Be3 F-02L
-- メーカー: 富士通コネクテッドテクノロジーズ
-- SoC (プロセッサ): Snapdragon 450
-- メモリ (RAM): 3GB
-- ストレージ: 32GB
-- 通信キャリア: NTTドコモ (NTT DOCOMO)
+### セキュリティ環境（ESET HOME セキュリティ エッセンシャル）
+* **基本特性:** * 超軽量フットプリント: 開発中のビルドやローカルAI（LM Studio/Antigravity）の推論実行を妨げない低リソース消費。
+* **開発・運用向け機能:**
+    * **検知エンジン除外設定:** Python仮想環境、GitHubローカルリポジトリ、VBAプロジェクトフォルダをスキャン対象外に指定し、ファイルI/Oの遅延を防止。
+    * **HIPS (ホスト侵入防止システム):** 未知の自作スクリプト実行時やシステムレジストリへのアクセスを監視・制御。
+    * **パーソナルファイアウォール:** localhost (127.0.0.1) 通信やAPI連携（GAS/Python間）のパケットフィルタリング管理。
+    * **スクリプトスキャン:** VBAマクロやWindows PowerShell等の不正な動きをリアルタイムで解析。
+    * **銀行決済保護:** 開発者コンソール（GitHub, AWS, Google Cloud等）へのアクセス時、ブラウザ層でのキー入力や通信を保護。
+    * **ネットワーク検査:** 接続中の周辺機器（Redmi Watch等）やホームネットワーク内の脆弱性スキャン。
 
-■スマートウオッチ
-- シャオミ(Xiaomi) スマートウォッチ Redmi Watch 5 Active
+### 物理モニター・周辺機器
+* **モニター1:** SHARP LC-22K30
+* **モニター2:** (未設定)
+* **マウス:** ELECOM製 m-ht1ur
+* **キーボード:** HHKB Studio
 
-■iPad：会社
-- 機種名: iPad Pro 11-inch (M5)
-- モデル番号: ME2N4J/A
-- シリアル番号: JTWMXGL27H
-- ストレージとネットワーク
-- ストレージ容量
-- 全容量: 256 GB
-- ネットワーク / 通信事業者: KDDI (67.0)
-- モバイルデータ通信番号: 08067695352
-- スペック (256GBモデル)
-- CPU: 9コア (高性能コア×3、高効率コア×6)
-- GPU: 10コア (ハードウェアアクセラレーテッドレイトレーシング対応)
-- Neural Engine: 16コア
-- メモリ (RAM): 12GB
-- メモリ帯域幅: 153GB/s
-- メディアエンジン: 8K H.264、HEVC、ProRes、AV1デコード対応
+### ローカルLLM環境
+* **ツール:** LM Studio v0.4.9
+* **モデル:** gemma-4-E4B-it-GGUF (unsloth)
 
-■サブスクリプション
-- Google AI Pro (2 TB) （開発元: Google LLC）
-- YouTube Premium Individual Add On （開発元: Google LLC）
-- Amazon　オーディブル
+---
 
-■予備機材
-- USBハブ: Anker 332 USB-C ハブ (5-in-1) ※2台
-- 給電ケーブル: UGREEN USB Type C ケーブル (PD 100W/5A, E-Marker, 480Mbps)
-- 給電アダプター: UGREEN 充電器 Type-C 65W 3-in-1 (USB-C*2 & USB-A*1, PD3.0 PPS対応)
+## 4. コード開発環境 (PCCode環境)
+会社と自宅における言語・パスの構成比較です。
 
-------------------
-記載：2026年3月25日(水)
+| カテゴリ | 項目 | 会社環境 | 自宅環境 |
+| :--- | :--- | :--- | :--- |
+| **Python 64bit** | 本体パス / Ver | C:\python64\python.exe (**v3.13.2**) | C:\python64\python.exe (**v3.13.2**) |
+| **Python 32bit** | 本体パス / Ver | C:\Python32\python.exe (**v3.12.9**) | C:\Python32\python.exe (**v3.12.8**) |
+| **Office** | Bit / Edition | ProPlus 2021 Retail (**32bit / x86**) | ProPlus 2021 Retail (**32bit / x86**) |
+| **Editor** | 名称 | Google Antigravity | Google Antigravity |
+| **基本パス (コード)** | パス | D:\My_code / D:\MyLauncher | D:\My_code / D:\MyLauncher |
+| **基本パス (アプリ)** | パス | D:\apps | D:\apps |
+
+---
+
+## 5. スマートフォン・タブレット・ウェアラブル
+
+### スマートフォン：個人
+* **機種名:** Google Pixel 6a
+* **SoC:** Google Tensor (第1世代)
+* **メモリ (RAM):** 6GB
+* **ストレージ:** 128GB
+* **キャリア:** Rakuten (楽天モバイル)
+
+### スマートフォン：会社
+* **機種名:** arrows Be3 F-02L (富士通コネクテッドテクノロジーズ)
+* **SoC:** Snapdragon 450
+* **メモリ (RAM):** 3GB
+* **ストレージ:** 32GB
+* **キャリア:** NTTドコモ
+
+### iPad：会社
+* **機種名:** iPad Pro 11-inch (M5)
+* **モデル番号:** ME2N4J/A
+* **シリアル番号:** JTWMXGL27H
+* **ストレージ:** 256 GB
+* **通信:** KDDI (67.0) / 番号: 08067695352
+* **スペック詳細:**
+    * CPU: 9コア (高性能×3, 高効率×6)
+    * GPU: 10コア (レイトレーシング対応)
+    * Neural Engine: 16コア
+    * メモリ: 12GB (帯域幅 153GB/s)
+    * メディアエンジン: 8K H.264, HEVC, ProRes, AV1デコード対応
+
+### スマートウォッチ
+* **機種:** シャオミ(Xiaomi) Redmi Watch 5 Active
+
+---
+
+## 6. サブスクリプション・予備機材
+
+### サブスクリプション
+* **Google AI Pro (2 TB):** Google LLC
+* **YouTube Premium Individual Add On:** Google LLC
+* **Amazon オーディブル**
+
+### 予備機材
+* **USBハブ:** Anker 332 USB-C ハブ (5-in-1) ※2台
+* **給電ケーブル:** UGREEN USB Type C (PD 100W/5A, E-Marker, 480Mbps)
+* **給電アダプター:** UGREEN 充電器 Type-C 65W 3-in-1 (USB-C×2, USB-A×1, PD3.0 PPS対応)
