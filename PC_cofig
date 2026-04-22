@@ -41,8 +41,8 @@
 * **クラウド管理:** Box
 
 ### 物理モニター・周辺機器
-* **モニター1:** HP P27 G5 27インチFHDモニター
-* **モニター2:** HP Series 5 Pro 527pf 27インチFHDモニター
+* **モニター1:** HP P27 G5 27インチFHDモニター:DisplayPort接続
+* **モニター2:** HP Series 5 Pro 527pf 27インチFHDモニター:DisplayPort接続
 * **ドッキングステーション:** Anker 778 Thunderbolt
 * **マウス:** ELECOM製 M-HT1DR (トラックボール)
 * **キーボード:** HHKB Studio
@@ -76,7 +76,7 @@
     * **ネットワーク検査:** 接続中の周辺機器（Redmi Watch等）やホームネットワーク内の脆弱性スキャン。
 
 ### 物理モニター・周辺機器
-* **モニター1:** SHARP LC-22K30
+* **モニター1:** SHARP LC-22K30:HDMI接続
 * **モニター2:** (未設定)
 * **マウス:** ELECOM製 m-ht1ur
 * **キーボード:** HHKB Studio
